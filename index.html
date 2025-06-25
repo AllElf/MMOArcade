@@ -52,14 +52,14 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/149af73a66a9f089c10eb5fbb37a8a26.loader.js";
+      var loaderUrl = buildUrl + "/MMOArcade.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/272b928677d4472aaed81ad0702753e9.data.br",
-        frameworkUrl: buildUrl + "/6354d7a5ed5a4f2bf922ec8999aedea0.framework.js.br",
-        codeUrl: buildUrl + "/05d9a9d6bb84549e6ce0947a2d0a1f11.wasm.br",
+        dataUrl: buildUrl + "/MMOArcade.data.br",
+        frameworkUrl: buildUrl + "/MMOArcade.framework.js.br",
+        codeUrl: buildUrl + "/MMOArcade.wasm.br",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "ArcadeMMO",
+        companyName: "DefaultCompany",
         productName: "ArcadeMMO",
         productVersion: "0.1.0",
         showBanner: unityShowBanner,
@@ -102,7 +102,6 @@
         canvas.style.height = "600px";
       }
 
-      canvas.style.background = "url('" + buildUrl + "/a5cc7cac7ac04373d15680dc53b258ac.jpg') center / cover";
       document.querySelector("#unity-loading-bar").style.display = "block";
 
       var script = document.createElement("script");
